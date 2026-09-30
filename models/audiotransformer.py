@@ -426,8 +426,7 @@ def audiotransformer_tiny(num_classes: int = 527,
 def ced_tiny(
         num_classes: int = 527,
         pretrained=True,
-        pretrained_url:
-    str = 'https://zenodo.org/record/8275319/files/audiotransformer_tiny_mAP_4814.pt?download=1',
+        pretrained_url: str = 'https://huggingface.co/mispeech/ced-tiny/resolve/main/model.safetensors',
         **kwargs):
     model_kwargs = dict(patch_size=16,
                         embed_dim=192,
@@ -448,8 +447,7 @@ def ced_tiny(
 def audiotransformer_mini(
         num_classes: int = 527,
         pretrained=True,
-        pretrained_url:
-    str = 'https://zenodo.org/record/8275347/files/audiotransformer_mini_mae_as_10s.pt?download=1',
+        pretrained_url: str = 'https://zenodo.org/record/8275347/files/audiotransformer_mini_mae_as_10s.pt?download=1',
         **kwargs):
     model_kwargs = dict(patch_size=16,
                         embed_dim=256,
@@ -470,8 +468,7 @@ def audiotransformer_mini(
 def ced_mini(
         num_classes: int = 527,
         pretrained=True,
-        pretrained_url:
-    str = 'https://zenodo.org/record/8275319/files/audiotransformer_mini_mAP_4896.pt?download=1',
+        pretrained_url: str = 'https://huggingface.co/mispeech/ced-mini/resolve/main/model.safetensors',
         **kwargs):
     model_kwargs = dict(patch_size=16,
                         embed_dim=256,
@@ -492,8 +489,7 @@ def ced_mini(
 def audiotransformer_small(
         num_classes: int = 527,
         pretrained=True,
-        pretrained_url:
-    str = 'https://zenodo.org/record/8275347/files/audiotransformer_small_mae_as_10s.pt?download=1',
+        pretrained_url: str = 'https://zenodo.org/record/8275347/files/audiotransformer_small_mae_as_10s.pt?download=1',
         **kwargs):
     model_kwargs = dict(patch_size=16,
                         embed_dim=384,
@@ -514,8 +510,7 @@ def audiotransformer_small(
 def ced_small(
         num_classes: int = 527,
         pretrained=True,
-        pretrained_url:
-    str = 'https://zenodo.org/record/8275319/files/audiotransformer_small_mAP_4958.pt?download=1',
+        pretrained_url: str = 'https://huggingface.co/mispeech/ced-small/resolve/main/model.safetensors',
         **kwargs):
     model_kwargs = dict(patch_size=16,
                         embed_dim=384,
@@ -536,8 +531,7 @@ def ced_small(
 def audiotransformer_base(
         num_classes: int = 527,
         pretrained=True,
-        pretrained_url:
-    str = 'https://zenodo.org/record/8275347/files/audiotransformer_base_mae_as_10s.pt?download=1',
+        pretrained_url: str = 'https://zenodo.org/record/8275347/files/audiotransformer_base_mae_as_10s.pt?download=1',
         **kwargs):
     model_kwargs = dict(patch_size=16,
                         embed_dim=768,
@@ -558,8 +552,7 @@ def audiotransformer_base(
 def ced_base(
         num_classes: int = 527,
         pretrained=False,
-        pretrained_url:
-    str = 'https://zenodo.org/record/8275319/files/audiotransformer_base_mAP_4999.pt?download=1',
+        pretrained_url: str = 'https://huggingface.co/mispeech/ced-base/resolve/main/model.safetensors',
         **kwargs):
     model_kwargs = dict(patch_size=16,
                         embed_dim=768,
@@ -580,8 +573,7 @@ def ced_base(
 def audiotransformer_base_4740(
         num_classes: int = 527,
         pretrained=True,
-        pretrained_url:
-    str = 'https://zenodo.org/record/7964975/files/audiotransformer_base_mAP_47_40.pt?download=1',
+        pretrained_url: str = 'https://zenodo.org/record/7964975/files/audiotransformer_base_mAP_47_40.pt?download=1',
         **kwargs):
     model_kwargs = dict(patch_size=16,
                         embed_dim=768,
