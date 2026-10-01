@@ -363,6 +363,12 @@ def main():
         "version": "1.0",
         "model_author": "RicherMans",
         "url": "https://github.com/RicherMans/CED",
+        # Lets a consumer (e.g. test_onnx.py) rebuild the exact PyTorch
+        # model this graph was traced from, rather than guessing from the
+        # filename.
+        "model_name": args.model,
+        "max_frames": str(args.max_frames),
+        "waveform_input": str(args.waveform_input),
     }
     add_meta_data(filename=output_model, meta_data=meta_data)
 
